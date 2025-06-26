@@ -1,0 +1,9 @@
+{
+  "name": "hardhat-tutor",
+  "packageManager": "yarn@3.6.4",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+     "hardhat": "^2.24.3",
+    "openzeppelin-solidity":"^4.6.0"
+  }
+}
