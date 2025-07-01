@@ -30,6 +30,7 @@ contract Token {
     constructor() {
         // The totalSupply is assigned to the transaction sender, which is the
         // account that is deploying the contract.
+        
         balances[msg.sender] = totalSupply;
         owner = msg.sender;
     }

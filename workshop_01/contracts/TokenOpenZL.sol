@@ -1,5 +1,5 @@
 //SPDX-License-Identifier: UNLICENSED
-pragma solidity =0.8.28;
+pragma solidity ^0.8.0;
 // standard imports
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 //
@@ -14,6 +14,7 @@ contract Floppy is ERC20("Floppy", "FLP"), ERC20Burnable, Ownable {
         _mint(msg.sender, cap);
         transferOwnership(msg.sender);
     }
+  
     function mint(address to, uint256 amount) public onlyOwner {
         require(ERC20.totalSupply() + amount <= cap, "Floppy: cap exceeded");
         _mint(to, amount);
