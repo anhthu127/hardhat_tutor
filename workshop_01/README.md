@@ -1,5 +1,16 @@
 # hardhat-tutor
+workshop1- create an ERC-20 token 
+a smart contract with full functionality
 
+- Debug by console log in smart contract, will print to terminal when running unit test
+- Deploy: install dotenv and make deploy folder
+
+*** commands line ***
+- npx hardhat compile
+- npx hardhat test
+- npx hardhat deploy
+
+*** More information: ***
 
   1. mint _ đúc
     total supply _ toàn bộ token trong hệ thống
@@ -14,3 +25,6 @@
     - Đưa lên sàn giao dịch,
 
     - Hoặc burn (đốt bớt token) nếu muốn.
+
+
+
