@@ -28,3 +28,5 @@ a smart contract with full functionality
 
 
 
+* Note: Vì trong contract dùng openzipplin nên cần flat token trước khi verify hoặc phải import cả src của openzipplin lên bsc verifying 
+
